@@ -197,10 +197,10 @@
         $('.menu').toggleClass('menu-active');
         $(this).toggleClass('phush-tocb-right');
 
+        $('.menu').css({"background-color":"pink"});
 
         setTimeout(function(){
           if(tocb.hasClass(phush-tocb-right)){
-            window.alert('Hello!');
             tocb.css({"left": ($('.menu').innerWidth() - tocb.innerWidth()) + 'px'});
           } else {
             tocb.css({"left": '12px'});
